@@ -1,0 +1,13 @@
+One STL Parser
+================================================================================
+
+A small library to parse binary STL files
+
+Only depends on `stddef.h` and `stdint.h`
+
+**TODO write README**
+
+License
+================================================================================
+
+Public Domain or MIT License (see `one-stl-parser.h` for more information)
