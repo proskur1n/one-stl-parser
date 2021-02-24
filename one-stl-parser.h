@@ -2,7 +2,7 @@
  * (https://en.wikipedia.org/wiki/STL_%28file_format%29)
  *
  * Author: Andrey Proskurin (git.proskur.in)
- * License: See end of file for more information
+ * License: MIT License (see end of file)
  *
  * Bugs: Does not handle integer overflow correctly on some platforms if STL
  * file has too many triangles, which can lead to buffer overflow. Do not use
@@ -190,10 +190,7 @@ size_t one_stl_parse(float *out_buf, char const *in_data,
 
 #endif /* ONE_STL_H */
 
-/*
-This software is available under 2 licenses - choose whichever you prefer.
---------------------------------------------------------------------------------
-ALTERNATIVE A - MIT License
+/* MIT License
 Copyright (c) 2020 Andrey Proskurin
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -212,29 +209,4 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
---------------------------------------------------------------------------------
-ALTERNATIVE B - Public Domain (www.unlicense.org)
-This is free and unencumbered software released into the public domain.
-
-Anyone is free to copy, modify, publish, use, compile, sell, or
-distribute this software, either in source code form or as a compiled
-binary, for any purpose, commercial or non-commercial, and by any
-means.
-
-In jurisdictions that recognize copyright laws, the author or authors
-of this software dedicate any and all copyright interest in the
-software to the public domain. We make this dedication for the benefit
-of the public at large and to the detriment of our heirs and
-successors. We intend this dedication to be an overt act of
-relinquishment in perpetuity of all present and future rights to this
-software under copyright law.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
-OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-OTHER DEALINGS IN THE SOFTWARE.
-*/
+SOFTWARE. */

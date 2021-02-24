@@ -10,4 +10,4 @@ Only depends on `stddef.h` and `stdint.h`
 License
 ================================================================================
 
-Public Domain or MIT License (see `one-stl-parser.h` for more information)
+MIT License (see `one-stl-parser.h` for more information)
